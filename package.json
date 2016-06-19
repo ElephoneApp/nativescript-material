@@ -4,10 +4,10 @@
 	"description": "Material plugin for nativescript.",
 	"main": "plugin.js",
 	"nativescript": {
-		"platforms": {
+	  "platforms": {
 			"android": "2.0.0",
-      "ios": "2.0.0"
-		}
+			"ios": "2.0.0"
+	  }
 	},
 	"scripts": {
 		"build": "tsc",
