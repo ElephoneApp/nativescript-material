@@ -1,7 +1,7 @@
 {
   "name": "tns-template-hello-world-ts",
   "main": "app.js",
-  "version": "2.0.0",
+  "version": "1.6.0",
   "author": {
     "name": "Telerik",
     "email": "support@telerik.com"
@@ -31,20 +31,23 @@
   "devDependencies": {
     "nativescript-dev-typescript": "^0.3.0"
   },
-  "_id": "tns-template-hello-world-ts@2.0.0",
-  "_shasum": "0ec16eaf0a69eda49e6ab4d64527a98ac675e5e6",
-  "_resolved": "https://registry.npmjs.org/tns-template-hello-world-ts/-/tns-template-hello-world-ts-2.0.0.tgz",
+  "_id": "tns-template-hello-world-ts@1.6.0",
+  "_shasum": "a567c2b9a56024818c06596dab9629d155c5b8a8",
+  "_resolved": "https://registry.npmjs.org/tns-template-hello-world-ts/-/tns-template-hello-world-ts-1.6.0.tgz",
   "_from": "tns-template-hello-world-ts@latest",
-  "scripts": {},
-  "_npmVersion": "3.8.3",
-  "_nodeVersion": "5.10.0",
+  "scripts": {
+    "build.plugin": "cd ../src && npm run build",
+    "ci.tslint": "npm i && tslint --config '../tslint.json' 'app/**/*.ts' --exclude '**/node_modules/**'"
+  },
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.2",
   "_npmUser": {
-    "name": "erjangavalji",
-    "email": "erjan.gavalji@gmail.com"
+    "name": "enchev",
+    "email": "vladimir.enchev@gmail.com"
   },
   "dist": {
-    "shasum": "0ec16eaf0a69eda49e6ab4d64527a98ac675e5e6",
-    "tarball": "https://registry.npmjs.org/tns-template-hello-world-ts/-/tns-template-hello-world-ts-2.0.0.tgz"
+    "shasum": "a567c2b9a56024818c06596dab9629d155c5b8a8",
+    "tarball": "http://registry.npmjs.org/tns-template-hello-world-ts/-/tns-template-hello-world-ts-1.6.0.tgz"
   },
   "maintainers": [
     {
@@ -97,8 +100,8 @@
     }
   ],
   "_npmOperationalInternal": {
-    "host": "packages-12-west.internal.npmjs.com",
-    "tmp": "tmp/tns-template-hello-world-ts-2.0.0.tgz_1461745126133_0.835834352299571"
+    "host": "packages-5-east.internal.npmjs.com",
+    "tmp": "tmp/tns-template-hello-world-ts-1.6.0.tgz_1455717516189_0.6427943941671401"
   },
   "directories": {},
   "readme": "ERROR: No README data found!"
