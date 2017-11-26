@@ -36,10 +36,10 @@
         "email": "info@with.love"
     },
     "bugs": {
-        "url": "https://github.com/YourName/nativescript-yourplugin/issues"
+        "url": "https://github.com/ElephoneApp/nativescript-material/issues"
     },
     "license": "Apache-2.0",
-    "homepage": "https://github.com/YourName/nativescript-yourplugin",
+    "homepage": "https://github.com/ElephoneApp/nativescript-material",
     "readmeFilename": "README.md",
     "devDependencies": {
         "tns-core-modules": "^3.1.0",

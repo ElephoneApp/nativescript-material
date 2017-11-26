@@ -1,5 +1,5 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd"
-      xmlns:Material="nativescript-yourplugin" 
+      xmlns:Material="nativescript-material" 
   loaded="pageLoaded" class="page">
   <StackLayout class="p-20">
     <Material:RaisedButton />
